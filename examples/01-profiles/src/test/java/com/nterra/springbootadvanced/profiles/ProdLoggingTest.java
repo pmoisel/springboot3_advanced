@@ -10,6 +10,7 @@ import org.springframework.test.context.ActiveProfiles;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
+@ActiveProfiles("prod")
 public class ProdLoggingTest {
 
   @Test

@@ -22,6 +22,13 @@ public class WebSecurityConfig {
                     .permitAll()
                     .anyRequest()
                     .authenticated())
+        .logout(Customizer.withDefaults())
+        .formLogin(
+            (formLogin) ->
+                formLogin
+                    .usernameParameter("username")
+                    .passwordParameter("password")
+                    .loginPage("/login"))
     ;
     return http.build();
   }
