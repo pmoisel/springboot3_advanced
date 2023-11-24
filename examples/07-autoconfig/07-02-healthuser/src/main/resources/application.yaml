@@ -7,3 +7,4 @@ management:
       enabled: true
     livenessstate:
       enabled: true
+debug: true

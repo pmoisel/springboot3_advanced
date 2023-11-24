@@ -1,0 +1,21 @@
+GET localhost:8080/customer?name=hallo
+
+###
+
+GET localhost:8080/customer?foo=sdf
+
+###
+
+PUT localhost:8080/customer
+Content-Type: application/json
+
+{
+"id":1,
+"name":"hallo",
+"settings":
+{
+"bla": "bar",
+  "foo": "sdf",
+  "sduif": "sdf"
+}
+}

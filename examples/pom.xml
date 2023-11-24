@@ -23,8 +23,8 @@
     <module>06-dockerlayer</module>
     <module>07-autoconfig/07-01-healthpublisher</module>
     <module>07-autoconfig/07-02-healthuser</module>
+    <module>08-jpa</module>
   </modules>
-
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
